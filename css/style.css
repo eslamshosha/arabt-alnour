@@ -375,9 +375,19 @@ header {
   z-index: 9999;
   width: 100%;
   height: 100%;
+
+  display: none;
+}
+.pop-up-flex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 2;
 }
 .pop-up-cont {
   position: relative;
@@ -2674,7 +2684,7 @@ html[dir="ltr"] .custom-pagention a i {
   .careers-list-head {
     text-align: center;
   }
-  .careers-form .form-btn-cont{
+  .careers-form .form-btn-cont {
     justify-content: center;
   }
 }
@@ -2832,7 +2842,7 @@ a.contact-ancor:hover {
   .map-icon {
     width: 45px;
   }
-  .contact-ancor.br{
+  .contact-ancor.br {
     word-wrap: break-all;
     word-break: break-all;
   }
